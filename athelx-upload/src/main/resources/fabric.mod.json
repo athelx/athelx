@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "framepilot",
+  "version": "${version}",
+  "name": "FramePilot",
+  "description": "Lightweight client-side frame-time diagnostics for Minecraft 1.21.11.",
+  "authors": ["FramePilot contributors"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.framepilot.FramePilotClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
